@@ -1,0 +1,97 @@
+@charaset"utf-8";
+
+body{ 				   /*ファイル全体の書式*/
+	font-style:normal; /*フォントスタイル*/
+	margin:0px; 
+	padding:0px; 
+	background-color:#c0b090;
+
+    margin-right: auto;
+    margin-left : auto;
+
+}
+
+h1 {			/*赤色,フォントサイズ大,太文字*/
+  color:red;
+  font-size:x-large;
+  font-weight:800;
+}
+
+h2 {			/*緑色,フォントサイズ中,太文字*/
+  color:green;
+  font-size:medium;
+  font-weight:bold;
+}
+
+h3{				/*太文字*/
+  font-weight:800;
+}
+
+.about{						/*見出し*/
+	background-color:#ccffcc;		
+	margin:20px; 
+	padding:10px; 
+	height:100px;
+	font-weight:800px;
+	text-align: left;		/*左寄せ*/
+}
+
+.border{
+	margin:1px; 
+	padding:1px; 
+	height:95%;						/*親要素に対して95%*/
+	border: thin #000000 inset;		/*枠線書式*/
+}
+
+.insert{					/*登録機能*/
+	background-color:#ccffcc;
+	margin:20px; 
+	padding:10px; 
+	text-align: left;			
+	height:400px;
+}
+
+.display{					/*表示機能*/
+	background-color:#efefef;
+	min-height: 50px;
+ 	height: auto !important;		/*高さは自動設定*/
+ 	margin:20px; 
+	padding:10px; 
+	text-align: left;
+}
+
+.delete{					/*削除機能*/
+	background-color:#ccffcc;
+	margin:20px; 
+	padding:10px; 
+	height:100px;
+	text-align: left;
+}
+
+.search{					/*検索機能(フォーム)*/
+	background-color:#ccffcc;
+	margin:20px; 
+	padding:10px;
+	height:300px;
+	text-align: left;
+}
+
+.searchresult{				/*検索結果*/
+	background-color:#efefef;
+ 	height: auto;
+ 	min-height: 100px;
+ 	margin:20px; 
+	padding:10px; 
+	text-align: left;
+}
+
+label{						/*フォームのラベル文字列を右寄せ*/
+	text-align: right;
+	margin-right:15px;
+}
+
+label,input[type="text"]{	/*inputのtext属性,フォームのラベルを左寄せ*/
+	display: block;
+	width:200px;
+	float:left;
+}

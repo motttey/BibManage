@@ -1,0 +1,28 @@
+@charaset"utf-8";
+
+body{ 
+	font-style:normal; /*フォントスタイル*/
+	margin:0px; 
+	padding:0px; 
+	background-color:##ccffcc;
+
+    margin-right: auto;
+    margin-left : auto;
+}
+
+h1 {                /*赤色,フォントサイズ大,太文字*/
+  color:red;
+  font-size:x-large;
+  font-weight:800;
+}
+
+h2 {                /*緑色,フォントサイズ中,太文字*/
+  color:green;
+  font-size:medium;
+  font-weight:bold;
+}
+
+h3{                 /*太文字*/
+  font-weight:800;
+}
+
