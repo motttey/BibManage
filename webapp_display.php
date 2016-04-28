@@ -4,7 +4,7 @@
 <body>
 <?php
 //データベースへの接続
-$mysqli = new mysqli("127.0.0.1", "root", "0718", "webapp");
+$mysqli = new mysqli("127.0.0.1", "root", "password", "webapp");
 if (!$mysqli) {
 	exit('データベースに接続できませんでした。');
 }
